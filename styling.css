@@ -1,0 +1,159 @@
+
+  
+  
+  .parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+    
+    
+    .gridContainer {
+      
+      display: grid;
+      grid-template-columns: 200px 200px 200px;
+      grid-template-rows: 200px 200px 200px;
+      gap: 2em;
+      background-color: black;
+      width: fit-content;
+      align-content: center;
+      justify-content: center;
+        
+      }
+      
+      .item { 
+        background-color: whitesmoke;
+        text-align: center;
+        padding: 2em;
+        font-size: 2rem;
+        color: rebeccapurple;
+      }
+
+
+      .cross1{
+        position: absolute;
+        background-color: black;
+        height: 16px;
+        width: 696px;
+        left: 0;
+        top: 12%;
+        z-index: 10;
+        pointer-events: none;
+
+        
+        
+      }
+
+      .cross2{
+        position: absolute;
+        background-color: black;
+        height: 16px;
+        width: 696px;
+        left: 0;
+        top: 35.5%;
+        pointer-events: none;
+  
+        
+        
+        
+      }
+
+      .cross3{
+        position: absolute;
+        background-color: black;
+        height: 16px;
+        width: 696px;
+        left: 0;
+        top: 59%;
+        pointer-events: none;
+
+   
+        
+      }
+
+      
+      .cross4{
+        position: absolute;
+        background-color: black;
+        height: 16px;
+        width: 696px;
+        left: 0;
+        top: 1%;
+        transform-origin: left center;
+        transform: translateX(15.5%) rotate(90deg);
+        pointer-events: none;
+
+
+  
+        
+      }
+
+      .cross5{
+        position: absolute;
+        background-color: black;
+        height: 16px;
+        width: 696px;
+        left: 0;
+        top: 1%;
+        transform-origin: left center;
+        transform: translateX(49%) rotate(90deg);
+        pointer-events: none;
+
+        
+
+        
+        
+      }
+
+
+      .cross6{
+        position: absolute;
+        background-color: black;
+        height: 16px;
+        width: 696px;
+        left: 0;
+        top: 1%;
+        transform-origin: left center;
+        transform: translateX(82%) rotate(90deg);
+        pointer-events: none;
+ 
+      
+        
+      }
+
+      .cross7{
+        position: absolute;
+        background-color: black;
+        height: 16px;
+        width: 950px;
+        left: 0;
+        top: 1%;
+        transform-origin: left center;
+        transform: translateX(0) rotate(45deg);
+        pointer-events: none;
+    
+
+        
+        
+      }
+
+      .cross8{
+        position: absolute;
+        background-color: black;
+        height: 16px;
+        width: 950px;
+        left: 0;
+        top: 70%;
+        pointer-events: none;
+        transform-origin: left center;
+        transform: translateX(0) rotate(315deg);
+        border-color: white;
+        border-radius: 10%;
+
+      }
+
+      .display{
+        display: none;
+      }
+      
